@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  hubfintech.conta:
+    image: hubfintech.conta
+    build:
+      context: .
+      dockerfile: HubFintech.Conta\Dockerfile
+
+  hubfintech.service.conta:
+    image: hubfintech.service.conta
+    build:
+      context: .
+      dockerfile: HubFintech.Service.Conta\Dockerfile
+
