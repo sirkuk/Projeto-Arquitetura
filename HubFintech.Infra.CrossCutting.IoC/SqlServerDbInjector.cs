@@ -10,7 +10,7 @@ namespace HubFintech.Infra.CrossCutting.IoC
     {
         public static void RegisterServices(IServiceCollection services)
         {
-            services.AddTransient<IDbConnectionFactory, SqlConnectionFactory>(); 
+            services.AddScoped<IDbConnectionFactory, SqlConnectionFactory>(); 
         }
     }
 }
