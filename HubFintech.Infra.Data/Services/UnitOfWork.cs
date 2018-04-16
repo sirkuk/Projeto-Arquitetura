@@ -1,9 +1,7 @@
 ﻿using HubFintech.Infra.Data.Factories.SQLServer;
 using HubFintech.Infra.Data.Interfaces;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Text;
 
 namespace HubFintech.Infra.Data.Services
 {
