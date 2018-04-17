@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HubFintech.Application.ViewModel.Conta
 {
-    class ContaViewModel
+    public class ContaViewModel
     {
     }
 }

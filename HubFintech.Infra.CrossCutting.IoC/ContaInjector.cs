@@ -1,4 +1,6 @@
-﻿using HubFintech.Domain.Interfaces.Repositories.Conta;
+﻿using HubFintech.Application.Interfaces.Conta;
+using HubFintech.Application.Services.Conta;
+using HubFintech.Domain.Interfaces.Repositories.Conta;
 using HubFintech.Domain.Interfaces.Services.Conta;
 using HubFintech.Domain.Services.Conta;
 using HubFintech.Infra.Data.Repositories.Conta;
@@ -15,6 +17,7 @@ namespace HubFintech.Infra.CrossCutting.IoC
         {
             services.AddScoped<IContaRepository, ContaRepository>();
             services.AddScoped<IContaService, ContaService>();
+            services.AddScoped<IContaAppService, ContaAppService>();
         }
     }
 }

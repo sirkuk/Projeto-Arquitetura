@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HubFintech.Application.Interfaces.Conta
 {
-    interface IContaAppService
+    public interface IContaAppService
     {
     }
 }

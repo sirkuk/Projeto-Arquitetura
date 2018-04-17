@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HubFintech.Application.Interfaces.Transacao
 {
-    interface ITransacaoAppService
+    public interface ITransacaoAppService
     {
     }
 }

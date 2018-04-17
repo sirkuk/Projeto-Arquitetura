@@ -1,10 +1,20 @@
-﻿using System;
+﻿using HubFintech.Application.ViewModel.Validation;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace HubFintech.Application.ViewModel.Cliente
 {
-    class ClienteViewModel
+    public class ClienteViewModel
     {
+        public long Id { get; set; }
+        public DateTime? DataNascimento { get; set; }
+        public DateTime DataCadastro { get; set; }
+        public string Cpf { get; set; }
+        public string NomeCompleto { get; set; }
+        public string Cnpj { get; set; }
+        public string Razaosocial { get; set; }
+        public string NomeFantasia { get; set; }
+        public ValidationResultViewModel ValidationResult { get; set; }
     }
 }

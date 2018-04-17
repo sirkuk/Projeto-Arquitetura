@@ -18,7 +18,7 @@ namespace HubFintech.Infra.Data.Repositories.Cliente
             _dbConnectionFactory = dbConnectionFactory;
         }
 
-        public IEnumerable<ClienteModel> GetById(int clienteId)
+        public ClienteModel GetById(long clienteId)
         {
             try
             {
@@ -28,7 +28,13 @@ namespace HubFintech.Infra.Data.Repositories.Cliente
                                         @""
                         );
 
-                    return resultado;
+                    var resultado2 = new ClienteModel()
+                    {
+                        Id = 1,
+                        NomeCompleto = "Teste",
+                        Cpf = "12345689031"
+                    };
+                    return resultado2;
                 }
             }
             catch (Exception ex)

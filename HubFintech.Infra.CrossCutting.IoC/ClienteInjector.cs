@@ -1,4 +1,6 @@
-﻿using HubFintech.Domain.Interfaces.Repositories.Cliente;
+﻿using HubFintech.Application.Interfaces.Cliente;
+using HubFintech.Application.Services.Cliente;
+using HubFintech.Domain.Interfaces.Repositories.Cliente;
 using HubFintech.Domain.Interfaces.Services.Cliente;
 using HubFintech.Domain.Services.Cliente;
 using HubFintech.Infra.Data.Repositories.Cliente;
@@ -15,6 +17,7 @@ namespace HubFintech.Infra.CrossCutting.IoC
         {
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<IClienteService, ClienteService>();
+            services.AddScoped<IClienteAppService, ClienteAppService>();
         }
     }
 }

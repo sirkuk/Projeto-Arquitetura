@@ -1,4 +1,6 @@
-﻿using HubFintech.Domain.Interfaces.Repositories.Transacao;
+﻿using HubFintech.Application.Interfaces.Transacao;
+using HubFintech.Application.Services.Transacao;
+using HubFintech.Domain.Interfaces.Repositories.Transacao;
 using HubFintech.Domain.Interfaces.Services.Transacao;
 using HubFintech.Domain.Services.Transacao;
 using HubFintech.Infra.Data.Repositories.Transacao;
@@ -15,6 +17,7 @@ namespace HubFintech.Infra.CrossCutting.IoC
         {
             services.AddScoped<ITransacaoRepository, TransacaoRepository>();
             services.AddScoped<ITransacaoService, TransacaoService>();
+            services.AddScoped<ITransacaoAppService, TransacaoAppService>();
         }
     }
 }

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HubFintech.Application.Interfaces.Cliente;
+using HubFintech.Application.Interfaces.Conta;
+using HubFintech.Application.Interfaces.Transacao;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HubFintech.Service.ContaAPI.Controllers
@@ -9,36 +12,33 @@ namespace HubFintech.Service.ContaAPI.Controllers
     [Route("api/[controller]")]
     public class ContaController : Controller
     {
-        // GET api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IContaAppService _contaAppService;
+        private readonly IClienteAppService _clienteAppService;
+        private readonly ITransacaoAppService _transacaoAppService;
+
+        public ContaController(IContaAppService contaAppService, IClienteAppService clienteAppService, ITransacaoAppService transacaoAppService)
         {
-            return new string[] { "value1", "value2" };
+            _contaAppService     =  contaAppService;
+            _clienteAppService   =  clienteAppService;
+            _transacaoAppService =  transacaoAppService;
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("conta/{conta}/cliente/{cliente}")]
+        public IActionResult GetById([FromRoute]short loja, [FromRoute]long cliente)
         {
-            return "value";
-        }
+            try
+            {
+                var retorno = _clienteAppService.GetById(cliente);
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+                if (retorno != null)
+                    return Ok(retorno);
+                else
+                    return NoContent();
+            }
+            catch
+            {
+                return StatusCode(500);
+            }
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HubFintech.Application.ViewModel.Transacao
 {
-    class TransacaoViewModel
+    public class TransacaoViewModel
     {
     }
 }
