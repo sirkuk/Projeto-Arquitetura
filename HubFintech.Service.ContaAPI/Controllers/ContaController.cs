@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace HubFintech.Service.ContaAPI.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ContaController : Controller
     {
         // GET api/values
         [HttpGet]

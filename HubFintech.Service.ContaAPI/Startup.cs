@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using HubFintech.Infra.CrossCutting.IoC;
+using Newtonsoft.Json;
 
 namespace HubFintech.Service.ContaAPI
 {
@@ -23,7 +26,19 @@ namespace HubFintech.Service.ContaAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            SqlServerDbInjector.RegisterServices(services);
+            ClienteInjector.RegisterServices(services);
+            ContaInjector.RegisterServices(services);
+            TransacaoInjector.RegisterServices(services);
+
+            services.AddMemoryCache();
+
+            services.AddAutoMapper();
+
+            services.AddMvc().AddJsonOptions(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

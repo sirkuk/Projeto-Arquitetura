@@ -16,4 +16,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HubFintech.Application\HubFintech.Application.csproj" />
+    <ProjectReference Include="..\HubFintech.Infra.CrossCutting.IoC\HubFintech.Infra.CrossCutting.IoC.csproj" />
+  </ItemGroup>
+
 </Project>

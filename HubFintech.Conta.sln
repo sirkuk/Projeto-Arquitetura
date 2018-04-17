@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Conta", "HubFintech.Conta\HubFintech.Conta.csproj", "{770C6547-57C4-4523-857F-954443EE247D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Conta", "HubFintech.Conta\HubFintech.Conta.csproj", "{770C6547-57C4-4523-857F-954443EE247D}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6F1E4143-8C81-47DD-967B-63F5B921C358}"
 EndProject
@@ -17,9 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{B0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Infra", "5.Infra", "{5A59736A-AEB6-4A87-8473-D5490B0B0BC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Service.Conta", "HubFintech.Service.Conta\HubFintech.Service.Conta.csproj", "{730CC862-701D-49B3-BA05-B30D9346BE19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Service.Conta", "HubFintech.Service.Conta\HubFintech.Service.Conta.csproj", "{730CC862-701D-49B3-BA05-B30D9346BE19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Service.ContaAPI", "HubFintech.Service.ContaAPI\HubFintech.Service.ContaAPI.csproj", "{368209EB-8D7A-4F52-B864-F119B108E889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Service.ContaAPI", "HubFintech.Service.ContaAPI\HubFintech.Service.ContaAPI.csproj", "{368209EB-8D7A-4F52-B864-F119B108E889}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1.Data", "5.1.Data", "{2A7947AB-4026-48DD-B2C8-E115F4ACC19A}"
 EndProject
@@ -27,11 +27,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.Cross-cutting", "5.2.Cr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3.External Services", "5.3.External Services", "{D08721AD-E3EA-47EC-91FD-366732CE15AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Infra.Data", "HubFintech.Infra.Data\HubFintech.Infra.Data.csproj", "{7AE7F0CA-4EF3-4988-A99A-CA908FA3FAF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Infra.Data", "HubFintech.Infra.Data\HubFintech.Infra.Data.csproj", "{7AE7F0CA-4EF3-4988-A99A-CA908FA3FAF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Infra.CrossCutting.IoC", "HubFintech.Infra.CrossCutting.IoC\HubFintech.Infra.CrossCutting.IoC.csproj", "{26A848BD-E586-49E3-B929-864EDE0CC0BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Infra.CrossCutting.IoC", "HubFintech.Infra.CrossCutting.IoC\HubFintech.Infra.CrossCutting.IoC.csproj", "{26A848BD-E586-49E3-B929-864EDE0CC0BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Infra.CrossCutting.Log", "HubFintech.Infra.CrossCutting.Log\HubFintech.Infra.CrossCutting.Log.csproj", "{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Infra.CrossCutting.Log", "HubFintech.Infra.CrossCutting.Log\HubFintech.Infra.CrossCutting.Log.csproj", "{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Domain", "..\HubFintech.Domain\HubFintech.Domain.csproj", "{54752D47-A9B5-4BB8-99A2-FDFEE0D62096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Application", "HubFintech.Application\HubFintech.Application.csproj", "{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,14 @@ Global
 		{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54752D47-A9B5-4BB8-99A2-FDFEE0D62096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54752D47-A9B5-4BB8-99A2-FDFEE0D62096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54752D47-A9B5-4BB8-99A2-FDFEE0D62096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54752D47-A9B5-4BB8-99A2-FDFEE0D62096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +92,8 @@ Global
 		{7AE7F0CA-4EF3-4988-A99A-CA908FA3FAF1} = {2A7947AB-4026-48DD-B2C8-E115F4ACC19A}
 		{26A848BD-E586-49E3-B929-864EDE0CC0BE} = {0C598305-F2F5-4AD7-A555-D81A5B2FC287}
 		{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8} = {0C598305-F2F5-4AD7-A555-D81A5B2FC287}
+		{54752D47-A9B5-4BB8-99A2-FDFEE0D62096} = {B09E499E-B9BC-47BB-9E65-F86BBA1556FB}
+		{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45} = {034EC62C-86FB-472F-B70D-115FC8AE7198}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CEB264D-BC8F-46F3-95B5-3D4B25582B7A}
