@@ -16,15 +16,16 @@ namespace HubFintech.Service.ContaAPI.Controllers
         private readonly IClienteAppService _clienteAppService;
         private readonly ITransacaoAppService _transacaoAppService;
 
-        public ContaController(IContaAppService contaAppService, IClienteAppService clienteAppService, ITransacaoAppService transacaoAppService)
+        public ContaController(IContaAppService contaAppService, 
+            IClienteAppService clienteAppService, ITransacaoAppService transacaoAppService)
         {
             _contaAppService     =  contaAppService;
             _clienteAppService   =  clienteAppService;
             _transacaoAppService =  transacaoAppService;
         }
 
-        [HttpGet("conta/{conta}/cliente/{cliente}")]
-        public IActionResult GetById([FromRoute]short loja, [FromRoute]long cliente)
+        [HttpGet("cliente/{cliente}")]
+        public IActionResult GetById([FromRoute]long cliente)
         {
             try
             {

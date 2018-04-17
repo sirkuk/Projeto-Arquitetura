@@ -5,6 +5,7 @@ using HubFintech.Infra.Data.Factories.SQLServer;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Text;
 
 namespace HubFintech.Infra.Data.Repositories.Cliente
@@ -26,15 +27,9 @@ namespace HubFintech.Infra.Data.Repositories.Cliente
                 {
                     var resultado = conn.Query<ClienteModel>(
                                         @""
-                        );
-
-                    var resultado2 = new ClienteModel()
-                    {
-                        Id = 1,
-                        NomeCompleto = "Teste",
-                        Cpf = "12345689031"
-                    };
-                    return resultado2;
+                        ).FirstOrDefault();
+                   
+                    return resultado;
                 }
             }
             catch (Exception ex)
