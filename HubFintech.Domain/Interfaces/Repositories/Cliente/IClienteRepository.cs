@@ -7,6 +7,9 @@ namespace HubFintech.Domain.Interfaces.Repositories.Cliente
 {
     public interface IClienteRepository
     {
+        void Create(ClienteModel cliente);
         ClienteModel GetById(long clienteId);
+        ClienteModel GetByCPF(string cpf);
+        ClienteModel GetByCNPJ(string cnpj);
     }
 }

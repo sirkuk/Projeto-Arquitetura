@@ -7,6 +7,7 @@ namespace HubFintech.Application.Interfaces.Cliente
 {
     public interface IClienteAppService
     {
+        long Create(ClienteViewModel cliente);
         ClienteViewModel GetById(long clienteId);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using HubFintech.Application.Interfaces.Cliente;
 using HubFintech.Application.ViewModel.Cliente;
+using HubFintech.Domain.Entities.Cliente;
 using HubFintech.Domain.Interfaces.Services.Cliente;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,11 @@ namespace HubFintech.Application.Services.Cliente
         {
             _clienteService = clienteService;
             _mapper = mapper;
+        }
+
+        public long Create(ClienteViewModel cliente)
+        {
+            return _clienteService.Create(_mapper.Map<ClienteModel>(cliente));
         }
 
         public ClienteViewModel GetById( long clienteId)

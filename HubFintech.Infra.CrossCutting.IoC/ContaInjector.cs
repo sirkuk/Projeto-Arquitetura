@@ -18,6 +18,7 @@ namespace HubFintech.Infra.CrossCutting.IoC
             services.AddScoped<IContaRepository, ContaRepository>();
             services.AddScoped<IContaService, ContaService>();
             services.AddScoped<IContaAppService, ContaAppService>();
+            services.AddScoped<IContaClienteAppService, ContaClienteAppService>();
         }
     }
 }

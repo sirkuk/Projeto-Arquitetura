@@ -7,6 +7,7 @@ namespace HubFintech.Domain.Interfaces.Services.Cliente
 {
     public interface IClienteService
     {
+        long Create(ClienteModel cliente);
         ClienteModel GetById(long clienteId);
     }
 }

@@ -1,13 +1,13 @@
-﻿using HubFintech.Application.ViewModel.Conta;
+﻿using HubFintech.Application.ViewModel.Cliente;
+using HubFintech.Application.ViewModel.Conta;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace HubFintech.Application.Interfaces.Conta
 {
-    public interface IContaAppService
+    public interface IContaClienteAppService
     {
         void Create(ContaViewModel conta);
-        ContaViewModel GetByCodigoTransacao(string codigoTransacao);
     }
 }
