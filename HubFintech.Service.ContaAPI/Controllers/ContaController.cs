@@ -91,5 +91,20 @@ namespace HubFintech.Service.ContaAPI.Controllers
             }
         }
 
+        [HttpGet("contacliente/consultar/{contaId}")]
+        public IActionResult GetById([FromRoute]long contaId)
+        {
+            try
+            {
+                var conta = _contaAppService.GetById(contaId);
+
+                return Ok(conta);
+            }
+            catch
+            {
+                return StatusCode(500);
+            }
+        }
+
     }
 }

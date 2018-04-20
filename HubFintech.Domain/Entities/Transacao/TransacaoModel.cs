@@ -8,8 +8,8 @@ namespace HubFintech.Domain.Entities.Transacao
     public class TransacaoModel
     {
         public long Id { get; set; }
-        public string CodigoTransacao { get; set; }
-        public long ReferenciaId { get; set; }
+        public string CodigoTransacao { get; set; }     //Código transação alfanumérico
+        public long ReferenciaId { get; set; }          //Id da transação da qual esta estornou
         public long? ContaOrigemId { get; set; }
         public long ContaDestinoId { get; set; }
         public DateTime DataCadastro { get; set; }

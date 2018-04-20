@@ -8,7 +8,6 @@ namespace HubFintech.Domain.Interfaces.Services.Conta
     public interface IContaService
     {
         void Create(ContaModel conta);
-        ContaModel GetByCodigoTransacao(string codigoTransacao);
         ContaModel GetById(long contaId);
     }
 }

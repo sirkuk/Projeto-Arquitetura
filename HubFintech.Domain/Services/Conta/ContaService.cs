@@ -30,11 +30,6 @@ namespace HubFintech.Domain.Services.Conta
                 throw new Exception(conta.ValidationResult.Erros.Aggregate((i, j) => i + "," + j));
         }
 
-        public ContaModel GetByCodigoTransacao(string codigoTransacao)
-        {
-            throw new NotImplementedException();
-        }
-
         public ContaModel GetById(long contaId)
         {
             return _contaRepo.GetById(contaId);

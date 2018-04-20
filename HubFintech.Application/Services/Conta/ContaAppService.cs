@@ -24,9 +24,9 @@ namespace HubFintech.Application.Services.Conta
             _contaService.Create(_mapper.Map<ContaModel>(conta));
         }
 
-        public ContaViewModel GetByCodigoTransacao(string codigoTransacao)
+        public ContaViewModel GetById(long contaId)
         {
-            throw new NotImplementedException();
+            return _mapper.Map<ContaViewModel>(_contaService.GetById(contaId));
         }
     }
 }
