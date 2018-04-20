@@ -30,6 +30,10 @@ namespace HubFintech.Domain.Services.Transacao
 
                 ContaModel contaDestino = _contaRepo.GetById(transacao.ContaDestinoId);
 
+                // ** Para melhor controle do erros precisava-se implementar conjunto 
+                //de Exceções especializadas no Cross cutting.
+                //E uma implementação no Cross cutting de Log seria necessário.
+                
                 ValidarContaOrigem(transacao, contaDestino, ref contaOrigem);
 
                 ValidarContaDestino(contaDestino, contaOrigem);
@@ -48,8 +52,7 @@ namespace HubFintech.Domain.Services.Transacao
         }
 
         private void ValidarContaDestino(ContaModel contaDestino, ContaModel contaOrigem)
-        {
-            //Criar Exceções especializadas no Cross cutting.
+        {            
             if (contaDestino == null)
                 throw new Exception("Conta destino inválida.");
             else if (contaDestino.Matriz)
