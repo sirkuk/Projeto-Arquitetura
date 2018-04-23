@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Conta", "HubFintech.Conta\HubFintech.Conta.csproj", "{770C6547-57C4-4523-857F-954443EE247D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6F1E4143-8C81-47DD-967B-63F5B921C358}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{28877121-7ADF-4EA4-BE0F-47DF4C087179}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Service", "2.Service", "{8F9C7013-8CF4-46B0-8F9B-ED91BFE75285}"
@@ -13,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{B0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Infra", "5.Infra", "{5A59736A-AEB6-4A87-8473-D5490B0B0BC6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Service.ContaAPI", "HubFintech.Service.ContaAPI\HubFintech.Service.ContaAPI.csproj", "{368209EB-8D7A-4F52-B864-F119B108E889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Service.Conta", "HubFintech.Service.Conta\DFK.Service.Conta.csproj", "{730CC862-701D-49B3-BA05-B30D9346BE19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Service.ContaAPI", "HubFintech.Service.ContaAPI\DFK.Service.ContaAPI.csproj", "{368209EB-8D7A-4F52-B864-F119B108E889}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1.Data", "5.1.Data", "{2A7947AB-4026-48DD-B2C8-E115F4ACC19A}"
 EndProject
@@ -21,17 +27,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.Cross-cutting", "5.2.Cr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3.External Services", "5.3.External Services", "{D08721AD-E3EA-47EC-91FD-366732CE15AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Infra.Data", "HubFintech.Infra.Data\HubFintech.Infra.Data.csproj", "{7AE7F0CA-4EF3-4988-A99A-CA908FA3FAF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Infra.Data", "HubFintech.Infra.Data\DFK.Infra.Data.csproj", "{7AE7F0CA-4EF3-4988-A99A-CA908FA3FAF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Infra.CrossCutting.IoC", "HubFintech.Infra.CrossCutting.IoC\HubFintech.Infra.CrossCutting.IoC.csproj", "{26A848BD-E586-49E3-B929-864EDE0CC0BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Infra.CrossCutting.IoC", "HubFintech.Infra.CrossCutting.IoC\DFK.Infra.CrossCutting.IoC.csproj", "{26A848BD-E586-49E3-B929-864EDE0CC0BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Infra.CrossCutting.Log", "HubFintech.Infra.CrossCutting.Log\HubFintech.Infra.CrossCutting.Log.csproj", "{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Infra.CrossCutting.Log", "HubFintech.Infra.CrossCutting.Log\DFK.Infra.CrossCutting.Log.csproj", "{1AA0FB5F-D0C4-4FE0-84D0-0521BBDCAFF8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Application", "HubFintech.Application\HubFintech.Application.csproj", "{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Application", "HubFintech.Application\DFK.Application.csproj", "{4B5C1256-9F1F-41FC-BEE2-2CD9DE5E6A45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubFintech.Domain", "HubFintech.Domain\HubFintech.Domain.csproj", "{1A6BDAD9-C107-443F-B216-F13D9FD07E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Domain", "HubFintech.Domain\DFK.Domain.csproj", "{1A6BDAD9-C107-443F-B216-F13D9FD07E21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubFintech.Infra.Data.SQLServer", "HubFintech.Infra.Data.SQLServer\HubFintech.Infra.Data.SQLServer.csproj", "{C7D00F6F-7018-4B7B-AF5B-7C8AA2DF0CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFK.Infra.Data.SQLServer", "HubFintech.Infra.Data.SQLServer\DFK.Infra.Data.SQLServer.csproj", "{C7D00F6F-7018-4B7B-AF5B-7C8AA2DF0CFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{770C6547-57C4-4523-857F-954443EE247D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770C6547-57C4-4523-857F-954443EE247D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770C6547-57C4-4523-857F-954443EE247D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770C6547-57C4-4523-857F-954443EE247D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1E4143-8C81-47DD-967B-63F5B921C358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1E4143-8C81-47DD-967B-63F5B921C358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1E4143-8C81-47DD-967B-63F5B921C358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1E4143-8C81-47DD-967B-63F5B921C358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730CC862-701D-49B3-BA05-B30D9346BE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730CC862-701D-49B3-BA05-B30D9346BE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730CC862-701D-49B3-BA05-B30D9346BE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730CC862-701D-49B3-BA05-B30D9346BE19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{368209EB-8D7A-4F52-B864-F119B108E889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{368209EB-8D7A-4F52-B864-F119B108E889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{368209EB-8D7A-4F52-B864-F119B108E889}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,6 +90,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{730CC862-701D-49B3-BA05-B30D9346BE19} = {8F9C7013-8CF4-46B0-8F9B-ED91BFE75285}
 		{368209EB-8D7A-4F52-B864-F119B108E889} = {8F9C7013-8CF4-46B0-8F9B-ED91BFE75285}
 		{2A7947AB-4026-48DD-B2C8-E115F4ACC19A} = {5A59736A-AEB6-4A87-8473-D5490B0B0BC6}
 		{0C598305-F2F5-4AD7-A555-D81A5B2FC287} = {5A59736A-AEB6-4A87-8473-D5490B0B0BC6}

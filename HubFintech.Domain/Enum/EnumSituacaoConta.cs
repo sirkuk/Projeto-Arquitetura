@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Enum
+namespace DFK.Domain.Enum
 {
     public enum EnumSituacaoConta : short 
     {

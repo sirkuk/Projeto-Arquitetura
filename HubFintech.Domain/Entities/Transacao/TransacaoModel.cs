@@ -1,9 +1,9 @@
-﻿using HubFintech.Domain.Entities.Validation;
+﻿using DFK.Domain.Entities.Validation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Entities.Transacao
+namespace DFK.Domain.Entities.Transacao
 {
     public class TransacaoModel
     {

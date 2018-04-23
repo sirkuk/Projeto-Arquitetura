@@ -9,10 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using HubFintech.Infra.CrossCutting.IoC;
+using DFK.Infra.CrossCutting.IoC;
 using Newtonsoft.Json;
 
-namespace HubFintech.Service.ContaAPI
+namespace DFK.Service.ContaAPI
 {
     public class Startup
     {

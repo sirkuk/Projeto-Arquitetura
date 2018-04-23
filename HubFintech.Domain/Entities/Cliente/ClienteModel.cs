@@ -1,10 +1,10 @@
-﻿using HubFintech.Domain.Entities.Validation;
-using HubFintech.Domain.Validations.Cliente;
+﻿using DFK.Domain.Entities.Validation;
+using DFK.Domain.Validations.Cliente;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Entities.Cliente
+namespace DFK.Domain.Entities.Cliente
 {
     public class ClienteModel
     {

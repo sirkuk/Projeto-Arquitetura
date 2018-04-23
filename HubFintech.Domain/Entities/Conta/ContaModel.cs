@@ -1,11 +1,11 @@
-﻿using HubFintech.Domain.Entities.Cliente;
-using HubFintech.Domain.Entities.Validation;
-using HubFintech.Domain.Validations.Conta;
+﻿using DFK.Domain.Entities.Cliente;
+using DFK.Domain.Entities.Validation;
+using DFK.Domain.Validations.Conta;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Entities.Conta
+namespace DFK.Domain.Entities.Conta
 {
     public class ContaModel
     {

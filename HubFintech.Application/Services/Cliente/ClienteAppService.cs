@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using HubFintech.Application.Interfaces.Cliente;
-using HubFintech.Application.ViewModel.Cliente;
-using HubFintech.Domain.Entities.Cliente;
-using HubFintech.Domain.Interfaces.Services.Cliente;
+using DFK.Application.Interfaces.Cliente;
+using DFK.Application.ViewModel.Cliente;
+using DFK.Domain.Entities.Cliente;
+using DFK.Domain.Interfaces.Services.Cliente;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.Services.Cliente
+namespace DFK.Application.Services.Cliente
 {
     public class ClienteAppService : IClienteAppService
     {

@@ -1,15 +1,15 @@
-﻿using HubFintech.Application.Interfaces.Transacao;
-using HubFintech.Application.Services.Transacao;
-using HubFintech.Domain.Interfaces.Repositories.Transacao;
-using HubFintech.Domain.Interfaces.Services.Transacao;
-using HubFintech.Domain.Services.Transacao;
-using HubFintech.Infra.Data.Repositories.Transacao;
+﻿using DFK.Application.Interfaces.Transacao;
+using DFK.Application.Services.Transacao;
+using DFK.Domain.Interfaces.Repositories.Transacao;
+using DFK.Domain.Interfaces.Services.Transacao;
+using DFK.Domain.Services.Transacao;
+using DFK.Infra.Data.Repositories.Transacao;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Infra.CrossCutting.IoC
+namespace DFK.Infra.CrossCutting.IoC
 {
     public class TransacaoInjector
     {

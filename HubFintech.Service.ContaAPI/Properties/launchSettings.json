@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "HubFintech.Service.ContaAPI": {
+    "DFK.Service.ContaAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

@@ -1,10 +1,10 @@
-﻿using HubFintech.Domain.Entities.Transacao;
-using HubFintech.Domain.Entities.Validation;
+﻿using DFK.Domain.Entities.Transacao;
+using DFK.Domain.Entities.Validation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Validations.Transacao
+namespace DFK.Domain.Validations.Transacao
 {
     public class TransacaoEstaConsistenteValidation
     {

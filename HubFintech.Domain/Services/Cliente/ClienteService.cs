@@ -1,12 +1,12 @@
-﻿using HubFintech.Domain.Entities.Cliente;
-using HubFintech.Domain.Interfaces.Repositories.Cliente;
-using HubFintech.Domain.Interfaces.Services.Cliente;
+﻿using DFK.Domain.Entities.Cliente;
+using DFK.Domain.Interfaces.Repositories.Cliente;
+using DFK.Domain.Interfaces.Services.Cliente;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HubFintech.Domain.Services.Cliente
+namespace DFK.Domain.Services.Cliente
 {
     public class ClienteService : IClienteService
     {

@@ -1,9 +1,9 @@
-﻿using HubFintech.Application.ViewModel.Validation;
+﻿using DFK.Application.ViewModel.Validation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.ViewModel.Cliente
+namespace DFK.Application.ViewModel.Cliente
 {
     public class ClienteViewModel
     {

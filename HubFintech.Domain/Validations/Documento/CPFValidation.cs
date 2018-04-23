@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Validations.Documento
+namespace DFK.Domain.Validations.Documento
 {
     public class CPFValidation
     {

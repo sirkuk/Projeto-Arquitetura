@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace HubFintech.Infra.Data.Factories.SQLServer
+namespace DFK.Infra.Data.Factories.SQLServer
 {
     public interface IDbConnectionFactory
     {

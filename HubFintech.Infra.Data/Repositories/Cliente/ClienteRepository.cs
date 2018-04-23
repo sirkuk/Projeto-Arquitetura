@@ -1,14 +1,14 @@
 ﻿using Dapper;
-using HubFintech.Domain.Entities.Cliente;
-using HubFintech.Domain.Interfaces.Repositories.Cliente;
-using HubFintech.Infra.Data.Factories.SQLServer;
+using DFK.Domain.Entities.Cliente;
+using DFK.Domain.Interfaces.Repositories.Cliente;
+using DFK.Infra.Data.Factories.SQLServer;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace HubFintech.Infra.Data.Repositories.Cliente
+namespace DFK.Infra.Data.Repositories.Cliente
 {
     public class ClienteRepository : IClienteRepository
     {

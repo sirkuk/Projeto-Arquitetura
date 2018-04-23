@@ -1,15 +1,15 @@
-﻿using HubFintech.Domain.Entities.Conta;
-using HubFintech.Domain.Entities.Transacao;
-using HubFintech.Domain.Enum;
-using HubFintech.Domain.Interfaces.Repositories.Conta;
-using HubFintech.Domain.Interfaces.Repositories.Transacao;
-using HubFintech.Domain.Interfaces.Services.Transacao;
+﻿using DFK.Domain.Entities.Conta;
+using DFK.Domain.Entities.Transacao;
+using DFK.Domain.Enum;
+using DFK.Domain.Interfaces.Repositories.Conta;
+using DFK.Domain.Interfaces.Repositories.Transacao;
+using DFK.Domain.Interfaces.Services.Transacao;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HubFintech.Domain.Services.Transacao
+namespace DFK.Domain.Services.Transacao
 {
     public class TransacaoService : ITransacaoService
     {

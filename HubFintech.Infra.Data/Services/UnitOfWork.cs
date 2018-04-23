@@ -1,9 +1,9 @@
-﻿using HubFintech.Infra.Data.Factories.SQLServer;
-using HubFintech.Infra.Data.Interfaces;
+﻿using DFK.Infra.Data.Factories.SQLServer;
+using DFK.Infra.Data.Interfaces;
 using System;
 using System.Data;
 
-namespace HubFintech.Infra.Data.Services
+namespace DFK.Infra.Data.Services
 {
     public class UnitOfWork : IUnitOfWork
     {

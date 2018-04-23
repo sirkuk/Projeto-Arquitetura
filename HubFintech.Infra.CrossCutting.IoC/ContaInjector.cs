@@ -1,15 +1,15 @@
-﻿using HubFintech.Application.Interfaces.Conta;
-using HubFintech.Application.Services.Conta;
-using HubFintech.Domain.Interfaces.Repositories.Conta;
-using HubFintech.Domain.Interfaces.Services.Conta;
-using HubFintech.Domain.Services.Conta;
-using HubFintech.Infra.Data.Repositories.Conta;
+﻿using DFK.Application.Interfaces.Conta;
+using DFK.Application.Services.Conta;
+using DFK.Domain.Interfaces.Repositories.Conta;
+using DFK.Domain.Interfaces.Services.Conta;
+using DFK.Domain.Services.Conta;
+using DFK.Infra.Data.Repositories.Conta;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Infra.CrossCutting.IoC
+namespace DFK.Infra.CrossCutting.IoC
 {
     public class ContaInjector
     {

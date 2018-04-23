@@ -1,9 +1,9 @@
-﻿using HubFintech.Application.ViewModel.Validation;
+﻿using DFK.Application.ViewModel.Validation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.ViewModel.Transacao
+namespace DFK.Application.ViewModel.Transacao
 {
     public class TransacaoViewModel
     {

@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using HubFintech.Application.ViewModel.Conta;
-using HubFintech.Domain.Entities.Conta;
+using DFK.Application.ViewModel.Conta;
+using DFK.Domain.Entities.Conta;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.AutoMapper.Conta
+namespace DFK.Application.AutoMapper.Conta
 {
     public class ContaMappingProfile : Profile
     {

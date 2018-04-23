@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HubFintech.Application.Interfaces.Cliente;
-using HubFintech.Application.Interfaces.Conta;
-using HubFintech.Application.Interfaces.Transacao;
-using HubFintech.Application.ViewModel.Cliente;
-using HubFintech.Application.ViewModel.Conta;
-using HubFintech.Application.ViewModel.Transacao;
+using DFK.Application.Interfaces.Cliente;
+using DFK.Application.Interfaces.Conta;
+using DFK.Application.Interfaces.Transacao;
+using DFK.Application.ViewModel.Cliente;
+using DFK.Application.ViewModel.Conta;
+using DFK.Application.ViewModel.Transacao;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HubFintech.Service.ContaAPI.Controllers
+namespace DFK.Service.ContaAPI.Controllers
 {
     [Route("api/[controller]")]
     public class ContaController : Controller

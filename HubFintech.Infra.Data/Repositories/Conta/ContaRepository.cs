@@ -1,16 +1,16 @@
 ﻿using Dapper;
-using HubFintech.Domain.Entities.Conta;
-using HubFintech.Domain.Interfaces.Repositories.Conta;
-using HubFintech.Infra.Data.Factories.SQLServer;
+using DFK.Domain.Entities.Conta;
+using DFK.Domain.Interfaces.Repositories.Conta;
+using DFK.Infra.Data.Factories.SQLServer;
 using System;
 using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using HubFintech.Domain.Enum;
-using HubFintech.Domain.Entities.Cliente;
+using DFK.Domain.Enum;
+using DFK.Domain.Entities.Cliente;
 
-namespace HubFintech.Infra.Data.Repositories.Conta
+namespace DFK.Infra.Data.Repositories.Conta
 {
     public class ContaRepository : IContaRepository
     {

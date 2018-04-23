@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Entities.Validation
+namespace DFK.Domain.Entities.Validation
 {
     public class ValidationResultModel
     {

@@ -1,10 +1,10 @@
-﻿using HubFintech.Application.ViewModel.Cliente;
-using HubFintech.Application.ViewModel.Validation;
+﻿using DFK.Application.ViewModel.Cliente;
+using DFK.Application.ViewModel.Validation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.ViewModel.Conta
+namespace DFK.Application.ViewModel.Conta
 {
     public class ContaViewModel
     {

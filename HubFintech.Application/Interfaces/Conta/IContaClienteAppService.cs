@@ -1,10 +1,10 @@
-﻿using HubFintech.Application.ViewModel.Cliente;
-using HubFintech.Application.ViewModel.Conta;
+﻿using DFK.Application.ViewModel.Cliente;
+using DFK.Application.ViewModel.Conta;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.Interfaces.Conta
+namespace DFK.Application.Interfaces.Conta
 {
     public interface IContaClienteAppService
     {

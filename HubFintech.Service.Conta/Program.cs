@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace HubFintech.Service.Conta
+namespace DFK.Service.Conta
 {
     public class Program
     {

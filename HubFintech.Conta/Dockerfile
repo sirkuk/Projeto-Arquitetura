@@ -5,10 +5,10 @@ EXPOSE 80
 FROM microsoft/aspnetcore-build:2.0-nanoserver-sac2016 AS build
 WORKDIR /src
 COPY *.sln ./
-COPY HubFintech.Conta/HubFintech.Conta.csproj HubFintech.Conta/
+COPY DFK.Conta/DFK.Conta.csproj DFK.Conta/
 RUN dotnet restore
 COPY . .
-WORKDIR /src/HubFintech.Conta
+WORKDIR /src/DFK.Conta
 RUN dotnet build -c Release -o /app
 
 FROM build AS publish
@@ -17,4 +17,4 @@ RUN dotnet publish -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "HubFintech.Conta.dll"]
+ENTRYPOINT ["dotnet", "DFK.Conta.dll"]

@@ -1,15 +1,15 @@
-﻿using HubFintech.Application.Interfaces.Cliente;
-using HubFintech.Application.Services.Cliente;
-using HubFintech.Domain.Interfaces.Repositories.Cliente;
-using HubFintech.Domain.Interfaces.Services.Cliente;
-using HubFintech.Domain.Services.Cliente;
-using HubFintech.Infra.Data.Repositories.Cliente;
+﻿using DFK.Application.Interfaces.Cliente;
+using DFK.Application.Services.Cliente;
+using DFK.Domain.Interfaces.Repositories.Cliente;
+using DFK.Domain.Interfaces.Services.Cliente;
+using DFK.Domain.Services.Cliente;
+using DFK.Infra.Data.Repositories.Cliente;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Infra.CrossCutting.IoC
+namespace DFK.Infra.CrossCutting.IoC
 {
     public class ClienteInjector
     {

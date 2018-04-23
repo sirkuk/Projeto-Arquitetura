@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HubFintech.Service.Conta.Controllers
+namespace DFK.Service.Conta.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller

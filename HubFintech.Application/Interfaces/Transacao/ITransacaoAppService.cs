@@ -1,9 +1,9 @@
-﻿using HubFintech.Application.ViewModel.Transacao;
+﻿using DFK.Application.ViewModel.Transacao;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.Interfaces.Transacao
+namespace DFK.Application.Interfaces.Transacao
 {
     public interface ITransacaoAppService
     {

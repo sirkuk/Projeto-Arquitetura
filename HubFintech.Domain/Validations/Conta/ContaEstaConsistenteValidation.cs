@@ -1,10 +1,10 @@
-﻿using HubFintech.Domain.Entities.Conta;
-using HubFintech.Domain.Entities.Validation;
+﻿using DFK.Domain.Entities.Conta;
+using DFK.Domain.Entities.Validation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Validations.Conta
+namespace DFK.Domain.Validations.Conta
 {
     public class ContaEstaConsistenteValidation
     {

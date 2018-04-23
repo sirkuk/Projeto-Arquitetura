@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using HubFintech.Application.Interfaces.Conta;
-using HubFintech.Application.ViewModel.Conta;
-using HubFintech.Domain.Entities.Conta;
-using HubFintech.Domain.Interfaces.Services.Conta;
+using DFK.Application.Interfaces.Conta;
+using DFK.Application.ViewModel.Conta;
+using DFK.Domain.Entities.Conta;
+using DFK.Domain.Interfaces.Services.Conta;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.Services.Conta
+namespace DFK.Application.Services.Conta
 {
     public class ContaAppService : IContaAppService
     {

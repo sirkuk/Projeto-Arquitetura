@@ -1,14 +1,14 @@
 ﻿using Dapper;
-using HubFintech.Domain.Entities.Transacao;
-using HubFintech.Domain.Interfaces.Repositories.Transacao;
-using HubFintech.Infra.Data.Factories.SQLServer;
+using DFK.Domain.Entities.Transacao;
+using DFK.Domain.Interfaces.Repositories.Transacao;
+using DFK.Infra.Data.Factories.SQLServer;
 using System;
 using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HubFintech.Infra.Data.Repositories.Transacao
+namespace DFK.Infra.Data.Repositories.Transacao
 {
     public class TransacaoRepository : ITransacaoRepository
     {

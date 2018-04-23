@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
-using HubFintech.Application.Interfaces.Cliente;
-using HubFintech.Application.Interfaces.Conta;
-using HubFintech.Application.ViewModel.Cliente;
-using HubFintech.Application.ViewModel.Conta;
+using DFK.Application.Interfaces.Cliente;
+using DFK.Application.Interfaces.Conta;
+using DFK.Application.ViewModel.Cliente;
+using DFK.Application.ViewModel.Conta;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Transactions;
 
-namespace HubFintech.Application.Services.Conta
+namespace DFK.Application.Services.Conta
 {
     public class ContaClienteAppService : IContaClienteAppService
     {

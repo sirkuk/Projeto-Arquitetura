@@ -1,9 +1,9 @@
-﻿using HubFintech.Application.ViewModel.Cliente;
+﻿using DFK.Application.ViewModel.Cliente;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.Interfaces.Cliente
+namespace DFK.Application.Interfaces.Cliente
 {
     public interface IClienteAppService
     {

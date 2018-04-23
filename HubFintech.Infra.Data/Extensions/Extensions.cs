@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Infra.Data.Extensions
+namespace DFK.Infra.Data.Extensions
 {
     public static class Extensions
     {

@@ -1,9 +1,9 @@
-﻿using HubFintech.Domain.Entities.Conta;
+﻿using DFK.Domain.Entities.Conta;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Interfaces.Services.Conta
+namespace DFK.Domain.Interfaces.Services.Conta
 {
     public interface IContaService
     {

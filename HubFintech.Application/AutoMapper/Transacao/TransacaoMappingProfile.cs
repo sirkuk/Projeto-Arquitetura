@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using HubFintech.Application.ViewModel.Transacao;
-using HubFintech.Domain.Entities.Transacao;
+using DFK.Application.ViewModel.Transacao;
+using DFK.Domain.Entities.Transacao;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.AutoMapper.Transacao
+namespace DFK.Application.AutoMapper.Transacao
 {
     public class TransacaoMappingProfile: Profile
     {

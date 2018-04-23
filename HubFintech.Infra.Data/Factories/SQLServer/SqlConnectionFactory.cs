@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.IO;
 using System;
-namespace HubFintech.Infra.Data.Factories.SQLServer
+namespace DFK.Infra.Data.Factories.SQLServer
 {
     public class SqlConnectionFactory : IDbConnectionFactory
     {

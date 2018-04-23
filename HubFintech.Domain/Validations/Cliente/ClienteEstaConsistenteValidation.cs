@@ -1,11 +1,11 @@
-﻿using HubFintech.Domain.Entities.Cliente;
-using HubFintech.Domain.Entities.Validation;
-using HubFintech.Domain.Validations.Documento;
+﻿using DFK.Domain.Entities.Cliente;
+using DFK.Domain.Entities.Validation;
+using DFK.Domain.Validations.Documento;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Domain.Validations.Cliente
+namespace DFK.Domain.Validations.Cliente
 {
     public class ClienteEstaConsistenteValidation
     {

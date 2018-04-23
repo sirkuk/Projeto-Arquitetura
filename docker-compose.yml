@@ -1,15 +1,15 @@
 version: '3'
 
 services:
-  hubfintech.conta:
-    image: hubfintech.conta
+  DFK.conta:
+    image: DFK.conta
     build:
       context: .
-      dockerfile: HubFintech.Conta\Dockerfile
+      dockerfile: DFK.Conta\Dockerfile
 
-  hubfintech.service.conta:
-    image: hubfintech.service.conta
+  DFK.service.conta:
+    image: DFK.service.conta
     build:
       context: .
-      dockerfile: HubFintech.Service.Conta\Dockerfile
+      dockerfile: DFK.Service.Conta\Dockerfile
 

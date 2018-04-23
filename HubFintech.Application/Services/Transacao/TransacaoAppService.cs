@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using HubFintech.Application.Interfaces.Transacao;
-using HubFintech.Application.ViewModel.Transacao;
-using HubFintech.Domain.Entities.Transacao;
-using HubFintech.Domain.Interfaces.Services.Transacao;
+using DFK.Application.Interfaces.Transacao;
+using DFK.Application.ViewModel.Transacao;
+using DFK.Domain.Entities.Transacao;
+using DFK.Domain.Interfaces.Services.Transacao;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Application.Services.Transacao
+namespace DFK.Application.Services.Transacao
 {
     public class TransacaoAppService : ITransacaoAppService
     {

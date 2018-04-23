@@ -1,12 +1,12 @@
-﻿using HubFintech.Domain.Entities.Conta;
-using HubFintech.Domain.Interfaces.Repositories.Conta;
-using HubFintech.Domain.Interfaces.Services.Conta;
+﻿using DFK.Domain.Entities.Conta;
+using DFK.Domain.Interfaces.Repositories.Conta;
+using DFK.Domain.Interfaces.Services.Conta;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HubFintech.Domain.Services.Conta
+namespace DFK.Domain.Services.Conta
 {
     public class ContaService : IContaService
     {

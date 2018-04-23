@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HubFintech.Application.ViewModel.Validation
+namespace DFK.Application.ViewModel.Validation
 {
     public class ValidationResultViewModel
     {

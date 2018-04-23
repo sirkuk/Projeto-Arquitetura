@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HubFintech.Infra.Data.Interfaces
+namespace DFK.Infra.Data.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
