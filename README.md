@@ -7,7 +7,7 @@ criação do Banco de dados (SQL Server 2014);
 as chamadas API;
 3. Um exemplo para consumir uma chamada API com parametro "frombody":
   - {host}/api/conta/contacliente método POST;
-  - application/json para HEARDER
+  - application/json para HEADER;
   - Body JSON:
   {
     "Id":0,
