@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HubFintech.Domain\DFK.Domain.csproj" />
+    <ProjectReference Include="..\DFK.Domain\DFK.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HubFintech.Application\DFK.Application.csproj" />
-    <ProjectReference Include="..\HubFintech.Infra.CrossCutting.IoC\DFK.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\DFK.Application\DFK.Application.csproj" />
+    <ProjectReference Include="..\DFK.Infra.CrossCutting.IoC\DFK.Infra.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
 </Project>

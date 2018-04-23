@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HubFintech.Application\DFK.Application.csproj" />
-    <ProjectReference Include="..\HubFintech.Infra.Data\DFK.Infra.Data.csproj" />
+    <ProjectReference Include="..\DFK.Application\DFK.Application.csproj" />
+    <ProjectReference Include="..\DFK.Infra.Data\DFK.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
